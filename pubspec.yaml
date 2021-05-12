@@ -1,0 +1,43 @@
+name: mi_card
+description: A new Flutter application.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - images/ziyu.png
+
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: fonts/LobsterTwo-Italic.ttf
+
+    - family: Titillium_Web
+      fonts:
+        - asset: fonts/TitilliumWeb-italic.ttf
+
+    - family: Lobster_Regular
+      fonts:
+        - asset: fonts/LobsterTwo-Regular.ttf
+
